@@ -4,7 +4,7 @@ Can be used to task management,cloud collection operation and data operation.
 
 
 ## Samples
-- [Python](https://github.com)
+- [Python](https://github.com/octopus-dev/open-api-samples/tree/main/Open_ApiSamples-master/Code/Python)
 
 # Api Addresses
 ## For China:
