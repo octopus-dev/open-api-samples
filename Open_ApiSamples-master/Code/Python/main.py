@@ -505,10 +505,11 @@ class Data_Collection_Related:
     @staticmethod
     def task_all_data(base_url, token, taskId, offset, size):
         """Gets task data at the specified location
-            将位置（offset）设置为 0，将从第一条数据的位置开始获取数据，并返回获取后续数据的实际起始位置（offset），
-            您应该通过该返回的位置（offset）来获取下一批数据，以此类推。 例如： 第一次：offset = 0，size = 100，
-            返回：offset = 1024 第二次：offset = 1024，size = 100， 返回：offset = 1124 第三次：offset = 1124，size = 100
-
+            When the offset is set to 0, you can get the data from the first data row and get a new offset in the response. You can use
+            the offset returned to get the next batch of data rows. For example, when you set offset=0, size=100 in your first request,
+            and the offset returned is offset=1024, you should use offset=1024, size=100 for the second request and get a new
+            offset=1124. Then you should use offset=1124, size=100 for the third request.
+            
                 Arguments:
                         base_url {string} -- base url of the api
                         token {string} -- token string from a valid token entity
