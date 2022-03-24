@@ -3,7 +3,7 @@
 @Software: PyCharm
 @Modify Time      @Author    @Version    @Desciption
 ------------      -------    --------    -----------
-2022/2/23 10:52  xing       1.0          调用requests请求封装
+2022/2/23 10:52  xing       1.0          request function
 """
 
 import requests

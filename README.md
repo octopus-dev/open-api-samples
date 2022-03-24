@@ -10,12 +10,10 @@ Can be used to task management,cloud collection operation and data operation.
 
 # Api Addresses
 ## For China:
-- [DataAPI](http://dataapi.bazhuayu.com/ "DataAPI")
-- [AdvancedAPI](http://advancedapi.bazhuayu.com "AdvancedAPI")
+- [OpenAPI](https://openapi.bazhuayu.com/zh-CN/ "OpenAPI")
 
 ## For International:
-- [DataAPI](http://dataapi.octoparse.com/ "DataAPI")
-- [AdvancedAPI](http://advancedapi.octoparse.com "AdvancedAPI")
+- [OpenAPI](https://openapi.octoparse.com/en-US/ "OpenAPI")
 
 
-Copyright 2017 © Octopus Data Inc.
+Copyright 2022 © Octopus Data Inc.

@@ -3,7 +3,7 @@
 @Software: PyCharm
 @Modify Time      @Author    @Version    @Desciption
 ------------      -------    --------    -----------
-2022/2/23 10:52  xing       1.0          八爪鱼任务各种api的调用
+2022/2/23 10:52  xing       1.0          Octopus API
 """
 
 from py_executor.scripts.open_new_api import util
